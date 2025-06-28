@@ -5,9 +5,9 @@
 // Типізуй повернення функції, зауваж що вона нічого явно не повертає.
 
 //===================================================================//
-type status = 'loading' | 'success' | 'error';
+type Status = 'loading' | 'success' | 'error';
 
-function logStatus(status: string): void {
+function logStatus(status: Status): void {
   if (status === 'loading') {
     console.log('Loading...');
   } else if (status === 'success') {
